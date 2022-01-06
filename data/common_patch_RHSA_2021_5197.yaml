@@ -1,0 +1,28 @@
+---
+lookup_options:
+  os_patch::repos:
+    merge:
+      strategy: deep
+  os_patch::packages:
+    merge:
+      strategy: deep
+
+os_patch::repos:
+  RHSA_2021_5197: "/repos/RHSA_2021_5197"
+
+os_patch::packages:
+rh-postgresql12-postgresql-12.9-1.el7.x86_64
+rh-postgresql12-postgresql-contrib-12.9-1.el7.x86_64
+rh-postgresql12-postgresql-contrib-syspaths-12.9-1.el7.x86_64
+rh-postgresql12-postgresql-debuginfo-12.9-1.el7.x86_64
+rh-postgresql12-postgresql-devel-12.9-1.el7.x86_64
+rh-postgresql12-postgresql-docs-12.9-1.el7.x86_64
+rh-postgresql12-postgresql-libs-12.9-1.el7.x86_64
+rh-postgresql12-postgresql-plperl-12.9-1.el7.x86_64
+rh-postgresql12-postgresql-plpython-12.9-1.el7.x86_64
+rh-postgresql12-postgresql-pltcl-12.9-1.el7.x86_64
+rh-postgresql12-postgresql-server-12.9-1.el7.x86_64
+rh-postgresql12-postgresql-server-syspaths-12.9-1.el7
+rh-postgresql12-postgresql-static-12.9-1.el7
+rh-postgresql12-postgresql-syspaths-12.9-1.el7
+rh-postgresql12-postgresql-test-12.9-1.el7.x86_64
